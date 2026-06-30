@@ -1,0 +1,229 @@
+[gd_scene format=3 uid="uid://bsnvmkf0q2gqd"]
+
+[ext_resource type="Texture2D" uid="uid://b5s076nfn32cm" path="res://Assets/Characters/Foxy/Sprites/jump/player-jump-2.png" id="1_5htga"]
+[ext_resource type="Script" uid="uid://ca3ktena8oxdo" path="res://Scenes/Player/Player.cs" id="1_p5o4e"]
+[ext_resource type="Texture2D" uid="uid://bnamnntwuycjb" path="res://Assets/Characters/Foxy/Sprites/climb/player-climb-1.png" id="2_c6x0f"]
+[ext_resource type="Texture2D" uid="uid://dmlw5gn47j6p1" path="res://Assets/Characters/Foxy/Sprites/idle/player-idle-1.png" id="2_p5o4e"]
+[ext_resource type="Texture2D" uid="uid://27thmdkqc6gm" path="res://Assets/Characters/Foxy/Sprites/idle/player-idle-2.png" id="3_gu6f8"]
+[ext_resource type="Texture2D" uid="uid://cisrfio8vb1hl" path="res://Assets/Characters/Foxy/Sprites/climb/player-climb-2.png" id="3_jp1hh"]
+[ext_resource type="Texture2D" uid="uid://rnadi0ll3axi" path="res://Assets/Characters/Foxy/Sprites/idle/player-idle-3.png" id="4_dkpta"]
+[ext_resource type="Texture2D" uid="uid://bxonan8mv6hc7" path="res://Assets/Characters/Foxy/Sprites/climb/player-climb-3.png" id="4_qs4pp"]
+[ext_resource type="Texture2D" uid="uid://cxgo615lsxe1e" path="res://Assets/Characters/Foxy/Sprites/crouch/player-crouch-1.png" id="5_iyprq"]
+[ext_resource type="Texture2D" uid="uid://6fk6h20gqt42" path="res://Assets/Characters/Foxy/Sprites/idle/player-idle-4.png" id="5_lfmf2"]
+[ext_resource type="Texture2D" uid="uid://kdkg8v1gaym5" path="res://Assets/Characters/Foxy/Sprites/crouch/player-crouch-2.png" id="6_f4lon"]
+[ext_resource type="Texture2D" uid="uid://d2y47rbvdx138" path="res://Assets/Characters/Foxy/Sprites/jump/player-jump-1.png" id="6_pisgm"]
+[ext_resource type="Texture2D" uid="uid://bb5n01tuyrdm5" path="res://Assets/Characters/Foxy/Sprites/Dizzy/Dizzy1.png" id="7_8ynux"]
+[ext_resource type="Texture2D" uid="uid://dynj0abnrjkdc" path="res://Assets/Characters/Foxy/Sprites/run/player-run-1.png" id="7_b1ygp"]
+[ext_resource type="Texture2D" uid="uid://bsrxv2o03wu3a" path="res://Assets/Characters/Foxy/Sprites/Dizzy/Dizzy2.png" id="8_d30e8"]
+[ext_resource type="Texture2D" uid="uid://cox1qh6jottgx" path="res://Assets/Characters/Foxy/Sprites/run/player-run-2.png" id="8_o28un"]
+[ext_resource type="Texture2D" uid="uid://bpnnb8a4hclo2" path="res://Assets/Characters/Foxy/Sprites/Dizzy/Dizzy3.png" id="9_6pogt"]
+[ext_resource type="Texture2D" uid="uid://vnkxnpqeecc4" path="res://Assets/Characters/Foxy/Sprites/run/player-run-3.png" id="9_n471f"]
+[ext_resource type="Texture2D" uid="uid://bhfd8g13xmkla" path="res://Assets/Characters/Foxy/Sprites/run/player-run-4.png" id="10_7emwf"]
+[ext_resource type="Texture2D" uid="uid://bbc4033433usy" path="res://Assets/Characters/Foxy/Sprites/Dizzy/Dizzy4.png" id="10_ie76m"]
+[ext_resource type="Texture2D" uid="uid://i87yi0xasaok" path="res://Assets/Characters/Foxy/Sprites/Dizzy/Dizzy5.png" id="11_dy65m"]
+[ext_resource type="Texture2D" uid="uid://d13pxxsclahgu" path="res://Assets/Characters/Foxy/Sprites/run/player-run-5.png" id="11_hshwv"]
+[ext_resource type="Texture2D" uid="uid://c3uvbc11ufb70" path="res://Assets/Characters/Foxy/Sprites/run/player-run-6.png" id="12_gpjlu"]
+[ext_resource type="Texture2D" uid="uid://i12gjh3jkpdn" path="res://Assets/Characters/Foxy/Sprites/Dizzy/Dizzy6.png" id="12_maysp"]
+[ext_resource type="Texture2D" uid="uid://co8e38hcsx7i" path="res://Assets/Characters/Foxy/Sprites/hurt/player-hurt-1.png" id="14_1l10g"]
+[ext_resource type="Texture2D" uid="uid://cuserb01cl16d" path="res://Assets/Characters/Foxy/Sprites/hurt/player-hurt-2.png" id="15_6rl0i"]
+[ext_resource type="Texture2D" uid="uid://bv67kmu0wcr6y" path="res://Assets/Characters/Foxy/Sprites/Hurt2/hurt-2.png" id="16_7x5p2"]
+[ext_resource type="Texture2D" uid="uid://dhjf8mrxvk0xp" path="res://Assets/Characters/Foxy/Sprites/LookUp/lookUp.png" id="22_6eb1q"]
+[ext_resource type="Texture2D" uid="uid://p1kgmsg6x3w6" path="res://Assets/Characters/Foxy/Sprites/Roll/Roll1.png" id="23_wvbyc"]
+[ext_resource type="Texture2D" uid="uid://xk75qr8u1cg5" path="res://Assets/Characters/Foxy/Sprites/Roll/Roll2.png" id="24_gvnt1"]
+[ext_resource type="Texture2D" uid="uid://b6c7xkwjfpf4k" path="res://Assets/Characters/Foxy/Sprites/Roll/Roll3.png" id="25_1kmt7"]
+[ext_resource type="Texture2D" uid="uid://8ngf00ruuvrk" path="res://Assets/Characters/Foxy/Sprites/Roll/Roll4.png" id="26_c4i3b"]
+[ext_resource type="Texture2D" uid="uid://cast1jt802orp" path="res://Assets/Characters/Foxy/Sprites/Victory/Victory.png" id="33_uvbbp"]
+[ext_resource type="Texture2D" uid="uid://boaxqcw8hgxsh" path="res://Assets/Characters/Foxy/Sprites/WallGrab/wall-grab1.png" id="34_7v2uk"]
+[ext_resource type="Texture2D" uid="uid://quu64pmt4egc" path="res://Assets/Characters/Foxy/Sprites/WallGrab/wall-grab2.png" id="35_m6nl3"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hvfyp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_c6x0f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_jp1hh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_qs4pp")
+}],
+"loop": 0,
+"name": &"climb",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_iyprq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_f4lon")
+}],
+"loop": 1,
+"name": &"crouch",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_8ynux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_d30e8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_6pogt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_ie76m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_dy65m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_maysp")
+}],
+"loop": 0,
+"name": &"dizzy",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_5htga")
+}],
+"loop": 0,
+"name": &"fall",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_1l10g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_6rl0i")
+}],
+"loop": 0,
+"name": &"hurt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_7x5p2")
+}],
+"loop": 1,
+"name": &"hurt2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_p5o4e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gu6f8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_dkpta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_lfmf2")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_pisgm")
+}],
+"loop": 1,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_6eb1q")
+}],
+"loop": 0,
+"name": &"lookup",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_wvbyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_gvnt1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_1kmt7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_c4i3b")
+}],
+"loop": 1,
+"name": &"roll",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_b1ygp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_o28un")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_n471f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_7emwf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_hshwv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_gpjlu")
+}],
+"loop": 1,
+"name": &"run",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("33_uvbbp")
+}],
+"loop": 1,
+"name": &"victory",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("34_7v2uk")
+}],
+"loop": 1,
+"name": &"wallgrab",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("35_m6nl3")
+}],
+"loop": 1,
+"name": &"wallgrab_lb",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8mwp6"]
+radius = 8.0
+height = 20.0
+
+[node name="Player" type="CharacterBody2D" unique_id=692754808]
+script = ExtResource("1_p5o4e")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1860190690]
+position = Vector2(0, -16)
+sprite_frames = SubResource("SpriteFrames_hvfyp")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=515889985]
+visible = false
+position = Vector2(0, -10)
+shape = SubResource("CapsuleShape2D_8mwp6")
