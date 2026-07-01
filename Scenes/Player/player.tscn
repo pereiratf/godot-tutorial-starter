@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://bsnvmkf0q2gqd"]
 
 [ext_resource type="Texture2D" uid="uid://b5s076nfn32cm" path="res://Assets/Characters/Foxy/Sprites/jump/player-jump-2.png" id="1_5htga"]
-[ext_resource type="Script" uid="uid://ca3ktena8oxdo" path="res://Scenes/Player/Player.cs" id="1_p5o4e"]
 [ext_resource type="Texture2D" uid="uid://bnamnntwuycjb" path="res://Assets/Characters/Foxy/Sprites/climb/player-climb-1.png" id="2_c6x0f"]
 [ext_resource type="Texture2D" uid="uid://dmlw5gn47j6p1" path="res://Assets/Characters/Foxy/Sprites/idle/player-idle-1.png" id="2_p5o4e"]
 [ext_resource type="Texture2D" uid="uid://27thmdkqc6gm" path="res://Assets/Characters/Foxy/Sprites/idle/player-idle-2.png" id="3_gu6f8"]
@@ -216,7 +215,6 @@ radius = 8.0
 height = 20.0
 
 [node name="Player" type="CharacterBody2D" unique_id=692754808]
-script = ExtResource("1_p5o4e")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1860190690]
 position = Vector2(0, -16)
